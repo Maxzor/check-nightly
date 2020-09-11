@@ -21,8 +21,8 @@ inputs:
     required: true
 
 output:
-  uploaded:
-    description: 'yes if a new upload has been made, no if the upload already existed'
+  cancelled:
+    description: 'yes if a new commit has been made, no if we can build'
   url:
     description: 'GitHub asset URL'
 
